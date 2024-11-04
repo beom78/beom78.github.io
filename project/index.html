@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+    
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+         
+        }
+      </style>
+    
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: url("타원 바디.png");
+            background-repeat: no-repeat;
+        }
+
+        
+        nav{
+            margin-top:-30px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        nav ul li {
+            list-style: none;
+            font-size: 1.2rem;
+
+        }
+
+        header {
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 1000px;
+            margin: auto;
+            
+            
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 30px;
+        }
+        .banner{
+            margin-bottom: 60px;
+            margin-top: 150px;
+        }
+       
+        
+
+        nav ul {
+            width: max-content;
+            margin: auto;
+            margin-top: 72px;
+        }
+
+
+
+        .ct1 {
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            margin: auto;
+            margin-top: 120px;
+        }
+
+        .c1 {
+            margin: 0 15px;
+            text-align: center;
+            border: 1px solid #707070;
+            border-radius: 64px;
+            padding-bottom: 35px;
+        }
+
+        .c1 img {
+            width: 100%;
+        }
+
+        .bestitem h1 {
+            font-size: 80px;
+            margin-top: 150px;
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            
+        }
+
+        .bg1 {
+            height: auto;
+            margin-top: 400px;
+        }
+
+        .bg1 video {
+            width: 100%;
+        }
+
+        .bg1 h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 80px;
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            
+        }
+
+        .nwbox {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .new {
+            margin-top: 350px;
+           
+        }
+
+
+        .new1 img {
+            border-radius: 40px;
+            width: 100%;
+            height: 85%;
+        }
+
+
+        .new h1 {
+            text-align: center;
+            margin-bottom: 100px;
+            font-size: 80px;
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            
+        }
+        
+
+
+
+
+        .instabox {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .instagram {
+            margin-top: 500px;
+            margin-bottom: 200px;
+        }
+
+        .instagram h1 {
+            font-size: 80px;
+            text-align: center;
+            margin-bottom: 100px;
+            font-family: "Montserrat", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            
+        }
+
+        .ins1 img {
+            border-radius: 20px;
+        }
+
+        .ins1 {
+            border-radius: 20px;
+
+        }
+        .ct2 {
+            background-color: #EBF5FC;
+            height: 300px;
+            margin-top: 240px;
+            text-align: center;
+        }
+
+        .c3 dd {
+            font-weight: bold;
+        }
+        img{
+            max-width: 100%;
+        }
+       
+
+        
+        @media (max-width:600px){
+            .wrap,header{width: 96%;margin: auto;}
+            header{
+                margin-bottom: 50px;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            nav li {
+            margin: 0 10px;
+        }
+        main,.swiper{height: 500px;}
+        .ct1{
+            flex-direction: column;
+                flex-wrap: wrap;
+        }
+        .c1{ margin: 3rem auto;}
+        .bg1 {
+               margin-top: 200px;
+        }
+        .new{
+            margin: 3rem auto;
+            margin-top: 300px;
+        }
+        .nwbox{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .instabox{
+            width: 96%;
+            flex-wrap: wrap;
+        }
+        .instabox .ins1{width: 48%;
+        }
+        .bestitem{
+            margin: auto;
+        }
+        body{
+            background: url("타원\ 바디2.png");
+            
+        }
+       
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+       
+            <header>
+                <div class="logo"> <img src="logo.png"> </div>
+                <nav>
+                    <ul>
+                        <li> <a href="#">BRAND</a> </li>
+                        <li> <a href="#">PRODUCT</a> </li>
+                        <li> <a href="#">BEST</a> </li>
+                        <li> <a href="#">MEDIA</a> </li>
+                        <li> <a href="#">EVENT</a> </li>
+                    </ul>
+                </nav>
+            </header>
+       
+        <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> <img src="main1.jpg"></div>
+              <div class="swiper-slide"><img src="main2.jpg"></div>
+              <div class="swiper-slide"><img src="main3.jpg"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </main>
+
+
+        <div class="ct1">
+            <div class="bestitem">
+                <h1>BEST <br>ITEMS</h1>
+            </div>
+            <div class="c1"> <img src="product1.png">
+                <h3>하이드라 앰플 나노플러스</h3>
+            </div>
+            <div class="c1"><img src="product2.png">
+                <h3>하이드라 앰플 나노플러스</h3>
+            </div>
+            <div class="c1"> <img src="product3.png">
+                <h3>하이드라 앰플 나노플러스</h3>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="bg1">
+            <h1>PROMOTION <br>VIDEO</h1>
+            <div class="video"><video src="videoplayback.mp4" autoplay muted loop></video></div>
+
+        </div>
+
+        <div class="new">
+            <h1>NEW ITEMS</h1>
+            <div class="nwbox">
+                <div class="new1"> <img src="new item1.jpg"> </div>
+                <div class="new1"> <img src="new item2.jpg"> </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="banner">
+    <img src="Frame 1.png">
+    </div>
+
+
+    <div class="instagram wrap">
+        <h1>9WISHES_<br>OFFICIAL</h1>
+        <div class="instabox">
+            <div class="ins1"> <img src="instagram1.jpg"> </div>
+            <div class="ins1"> <img src="instagram2.jpg"></div>
+            <div class="ins1"> <img src="instagram3.jpg"></div>
+            <div class="ins1"> <img src="instagram3.jpg"></div>
+
+
+        </div>
+    </div>
+
+    <div class="ct2">
+
+        <div class="c2"> <img src="logo.png"> </div>
+
+        <div class="c3">
+            <dl>
+                <dt>주소</dt>
+                <dd>나인위시스빌딩 서울특별시 마포구 어울마당로5길 25-8 (서교동)</dd>
+
+            </dl>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
+
+
+</body>
+</html>
